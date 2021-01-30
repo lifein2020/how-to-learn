@@ -26,13 +26,13 @@
   width: 568px;
 }*/
 
-/* и элемента с модификатором вида ключ-значение */
+/* и элемента с модификатором вида ключ-значение
 .table__cell_theme_dark {
   margin-top: 80px;
   margin-right: 0;
   width: 200px;
   color: white;
-}
+}*/
 
 .logo {
   width: 183px;
@@ -96,16 +96,6 @@
   right:0;
   z-index: 0;
   background-color: #2f80ed;
-}
-
-.header__link {
-  padding-right: 20px;
-  background-image: url(../images/return.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  text-decoration: none;
-  color: #2f80ed;
 }
 
 .description {
@@ -265,7 +255,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  color: #2f80ed;
 }
 
 .kaufman {
