@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="vendor/normalize.css">
+  <!--<link rel="stylesheet" href="vendor/normalize.css"> normalize.css нужно подключать только в index.css, перед остальными стилями.-->
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -16,7 +16,7 @@
           <a href="#" target="_blank" class="header__link">Узнать &rarr;</a>
         </p>
       <img class="header__main-illustration" src="images/header-image.png" alt="Филиппок">
-      <div class="header__square-pic header__square-pic_rotation"></div>
+      <div class="header__square-pic rotation__square-pic"></div>
     </header>
 
     <main class="content">
@@ -68,12 +68,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe id="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/arj7oStGLkU?color=white" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe id="ytplayer1" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/5MgBikgcWnY?color=white" frameborder="0" allowfullscreen></iframe>
-          </div>
+          <iframe class="video__iframe" id="ytplayer" src="https://www.youtube.com/embed/arj7oStGLkU?color=white" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer1" src="https://www.youtube.com/embed/5MgBikgcWnY?color=white" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -137,7 +133,9 @@
         <article class="khan__container">
           <h2 class="khan__author">Салман Хан</h2>
           <p class="khan__title">Весь мир — школа</p>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote  class="khan__quote" cite="#">
+            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          </blockquote>
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -152,64 +150,64 @@
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">1</h4>
+            <h3 class="table__heading table__heading_theme-dark">1</h3>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">2</h4>
+            <h3 class="table__heading table__heading_theme-dark">2</h3>
             <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">3</h4>
+            <h3 class="table__heading table__heading_theme-dark">3</h3>
             <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">4</h4>
+            <h3 class="table__heading table__heading_theme-dark">4</h3>
             <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">5</h4>
+            <h3 class="table__heading table__heading_theme-dark">5</h3>
             <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">6</h4>
+            <h3 class="table__heading table__heading_theme-dark">6</h3>
             <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">7</h4>
+            <h3 class="table__heading table__heading_theme-dark">7</h3>
             <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">8</h4>
+            <h3 class="table__heading table__heading_theme-dark">8</h3>
             <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">9</h4>
+            <h3 class="table__heading table__heading_theme-dark">9</h3>
             <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme-dark">10</h4>
+            <h3 class="table__heading table__heading_theme-dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle kaufman__triangle_rotation"></div>
+        <div class="kaufman__triangle rotation__triangle"></div>
       </section>
 
       <section class="resources">
-        <h2 class="section-title section-title_theme_dark">Полезные ресурсы</h2>
-        <p class="section-subtitle section-subtitle_theme_dark">Больше материалов о техниках и лайфхаках обучения</p>
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <a href="https://arzamas.academy/" target="_blank" rel="noopener noreferrer">
-            <img class="resources__logo" src="images/resources-arzamas.svg" alt="Arzamas">
+          <a class="resources__logo" href="https://arzamas.academy/" target="_blank" rel="noopener noreferrer">
+            <img src="images/resources-arzamas.svg" alt="Arzamas">
           </a>
-          <a href="https://nplus1.ru/" target="_blank" rel="noopener noreferrer">
-            <img class="resources__logo" src="images/resources-n1.svg" alt="N+1">
+          <a class="resources__logo" href="https://nplus1.ru/" target="_blank" rel="noopener noreferrer">
+            <img src="images/resources-n1.svg" alt="N+1">
           </a>
           <a class="resources__logo" href="https://strelka.com/ru" target="_blank" rel="noopener noreferrer">
-            <img class="resources__logo" src="images/resources-strelka.svg" alt="STRELKA">
+            <img src="images/resources-strelka.svg" alt="STRELKA">
           </a>
           <a class="resources__logo" href="https://polka.academy/" target="_blank" rel="noopener noreferrer">
-            <img class="resources__logo" src="images/resources-polka.svg" alt="ПОЛКА">
+            <img src="images/resources-polka.svg" alt="ПОЛКА">
           </a>
         </div>
       </section>

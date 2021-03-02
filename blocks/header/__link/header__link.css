@@ -2,9 +2,9 @@
   text-decoration: none;
   color: #2f80ed;
   opacity: 1;
+  transition: opacity .1s ease-in; /*переход работает и при наведении курсора, и при его снятии.*/
 }
 
 .header__link:hover {
-  transition: opacity .1s ease-in;
   opacity: 0.5;
 }
