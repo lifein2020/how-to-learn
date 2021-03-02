@@ -1,6 +1,6 @@
 .feynman__title {
   margin: auto;
-  width: 648px;
+  max-width: 648px; /*Для текстовых элементов лучше использовать max-width.*/
   position: relative;
   z-index: 1;
   text-align: center;

@@ -1,6 +1,10 @@
 .video__iframes {
-  padding-top: 50px;
   display: flex;
   justify-content: center;
-  /*position: relative;*/
+  transform: translate(0, 50px); /*первый способ пэффекта переполнения блока*/
+
+  /*position: relative;
+  top: 50px; второй способ эффекта переполнения*/
+
+  /*padding-top: 50px; третий способ эффекта переполнения*/
 }

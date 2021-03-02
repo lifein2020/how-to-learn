@@ -1,5 +1,4 @@
 .khan__book-container {
-  height: 608px;
   margin-top: 68px;
-  overflow: hidden; /* хотя и без него нижняя часть катринки не видна*/
+  display: flex;
 }
