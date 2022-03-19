@@ -1,19 +1,19 @@
-"Научиться учиться"
+"How to learn"
 
-Лендинг, посвященный современным и эффективным подходам к обучению, который вы можете использовать в своей жизни. 
+A landing page dedicated to modern and effective approaches to learning that you can use in your life.
 
-Функциональность сайта:
-- ссылки на тематические материалы, соцсети
-- купить книгу
+Site functionality:
+- links to thematic materials, social networks
+- To buy a book
 
-Используемые технологии:
+Used technologies:
 - HTML
-- CSS (флексбокс-вёрстка, кроссбраузерность, анимация)
-- методология БЭМ
-- организация файловой структуры: Nested
+- CSS (flexbox layout, cross-browser compatibility, animation)
+- BEM methodology
+- file structure organization: Nested
 
-Планы по доработке проекта:
-подключить другие шрифты;
-добавить любимые образовательные видео;
-проверить код на кроссбраузерность и дописать все вендорные префиксы;
-задизайнить форму, через которую пользователи смогут отправить вам комментарий.
+Plans for finalizing the project:
+connect other fonts;
+add my favorite educational videos;
+check the code for cross-browser compatibility and add all vendor prefixes;
+design a form through which users can send you a comment.
