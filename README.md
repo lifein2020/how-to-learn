@@ -1,13 +1,13 @@
 # "How to learn"
 
-A landing page dedicated to modern and effective approaches to learning that you can use in your life.
+### A landing page dedicated to modern and effective approaches to learning that you can use in your life.
 
 **GitHub Pages**
 https://lifein2020.github.io/how-to-learn/
 
 **Site functionality:**
 * links to thematic materials, social networks
-* To buy a book
+* to buy a book
 
 **Used technologies:**
 * HTML
